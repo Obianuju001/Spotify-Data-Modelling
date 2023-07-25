@@ -1,0 +1,254 @@
+<mxfile host="Electron" modified="2023-07-25T11:35:11.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="_IAGf5gtiUdQaKm_6Oro" version="21.6.1" type="device">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="975" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-1" value="Users" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="109.86" y="1317" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-2" value="Name&lt;br&gt;Email&lt;br&gt;Password&lt;br&gt;Date of Birth&lt;br&gt;Profile Image" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Q0yfEz_CHsHbp9bYXUm1-1">
+          <mxGeometry y="50" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-3" value="Playlists" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="629.86" y="1334.5" width="160" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-4" value="Name&amp;nbsp;&lt;br&gt;Image" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Q0yfEz_CHsHbp9bYXUm1-3">
+          <mxGeometry y="50" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;&lt;u&gt;ASSIGNMENT&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="344.86" y="1210" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Q0yfEz_CHsHbp9bYXUm1-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="629.86" y="1383" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Q0yfEz_CHsHbp9bYXUm1-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="269.86" y="1382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-6" value="HAVE" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="389.86" y="1352" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-10" value="1..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="279.86" y="1345" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-11" value="1..N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="564.86" y="1345" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-12" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="429.86" y="1315" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-13" value="Tracks" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="629.86" y="1817" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-14" value="Name&lt;br&gt;Duration&lt;br&gt;File Path" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Q0yfEz_CHsHbp9bYXUm1-13">
+          <mxGeometry y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Q0yfEz_CHsHbp9bYXUm1-15" target="Q0yfEz_CHsHbp9bYXUm1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Q0yfEz_CHsHbp9bYXUm1-15" target="Q0yfEz_CHsHbp9bYXUm1-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-15" value="Playlist_Tracks" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="649.86" y="1577" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-18" value="1..N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="704.86" y="1445" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-19" value="1..N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="704.86" y="1772" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-20" value="M:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="769.86" y="1592" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-21" value="Albums" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="229.86" y="1817" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-22" value="Name&lt;br&gt;Release Date&lt;br&gt;Image" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Q0yfEz_CHsHbp9bYXUm1-21">
+          <mxGeometry y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Q0yfEz_CHsHbp9bYXUm1-23" target="Q0yfEz_CHsHbp9bYXUm1-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="389.86" y="1872" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Q0yfEz_CHsHbp9bYXUm1-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="629.86" y="1872" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-23" value="HAVE" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="454.86" y="1842" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-29" value="1..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="394.86" y="1842" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-30" value="1..N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="579.86" y="1842" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-31" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="494.86" y="1812" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-36" value="Artists" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="109.86" y="1635" width="160" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-37" value="Name&lt;br&gt;Genre&lt;br&gt;Image" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Q0yfEz_CHsHbp9bYXUm1-36">
+          <mxGeometry y="50" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Q0yfEz_CHsHbp9bYXUm1-38" target="Q0yfEz_CHsHbp9bYXUm1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Q0yfEz_CHsHbp9bYXUm1-38" target="Q0yfEz_CHsHbp9bYXUm1-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-38" value="FOLLOWERS" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="129.86" y="1507" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.046;entryY=0.076;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Q0yfEz_CHsHbp9bYXUm1-39" target="Q0yfEz_CHsHbp9bYXUm1-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="229.86" y="1872" />
+              <mxPoint x="229.86" y="1872" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Q0yfEz_CHsHbp9bYXUm1-39" target="Q0yfEz_CHsHbp9bYXUm1-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-39" value="HAVE" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="59.86" y="1842" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-40" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="99.86" y="1805" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-46" value="1..N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="174.86" y="1845" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-47" value="1..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="189.86" y="1747" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-50" value="1..N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="184.86" y="1455" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-51" value="1..N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="184.86" y="1605" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-52" value="M:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="249.86" y="1522" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Q0yfEz_CHsHbp9bYXUm1-53" target="Q0yfEz_CHsHbp9bYXUm1-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Q0yfEz_CHsHbp9bYXUm1-53" target="Q0yfEz_CHsHbp9bYXUm1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-53" value="LIKES" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="419.86" y="1577" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-56" value="1..N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="354.86" y="1485" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-57" value="1..N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="534.86" y="1695" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-58" value="M:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="539.86" y="1592" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-59" value="&lt;u&gt;ENTITY / RELATIONSHIP DIAGRAM&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="324.86" y="1265" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-60" value="&lt;u&gt;&lt;b&gt;RELATIONAL MODEL MAP&lt;/b&gt;&lt;/u&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="79.86" y="1987" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-62" value="Users (&lt;u&gt;Name&lt;/u&gt;, Email, Password, Date of Birth, Profile Image)&lt;br&gt;Artists (&lt;u&gt;Names&lt;/u&gt;, Genre, Image)&lt;br&gt;Albums (&lt;u&gt;Name&lt;/u&gt;, Release Date, Image, # Artists Names)&lt;br&gt;Tracks (&lt;u&gt;Name&lt;/u&gt;, Duration, File Path, # Albums Name)&lt;br&gt;Playlists (&lt;u&gt;Name&lt;/u&gt;, Image, # Users Name)&lt;br&gt;Playlist_Tracks (&lt;u&gt;Name&lt;/u&gt;, Genre, # Playlists Name, # Tracks Name)&lt;br&gt;Followers (&lt;u&gt;Name&lt;/u&gt;, Gender, # Users Name, # Artists Names)&lt;br&gt;Likes (&lt;u&gt;Date&lt;/u&gt;, Time, # Users Name, # Tracks Name)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="79.86" y="2027" width="370" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-67" value="&lt;u&gt;CROW&#39;S FOOT NOTATION&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="329.86" y="2277" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-68" value="Users" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="74.86" y="2347" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-69" value="Name&lt;br&gt;Email&lt;br&gt;Password&lt;br&gt;Date of Birth&lt;br&gt;Profile Image&lt;br&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Q0yfEz_CHsHbp9bYXUm1-68">
+          <mxGeometry y="50" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-70" value="Playlists" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="609.86" y="2347" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-71" value="Name&lt;br&gt;Image" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Q0yfEz_CHsHbp9bYXUm1-70">
+          <mxGeometry y="50" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-72" value="Tracks" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="599.86" y="2837" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-73" value="Name&lt;br&gt;Duration&lt;br&gt;File Path" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Q0yfEz_CHsHbp9bYXUm1-72">
+          <mxGeometry y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-74" value="Artists" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="79.86" y="2837" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-75" value="Name&lt;br&gt;Genre&lt;br&gt;Image" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Q0yfEz_CHsHbp9bYXUm1-74">
+          <mxGeometry y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-76" value="Albums" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339.86" y="2837" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-77" value="Name&lt;br&gt;Reale Date&lt;br&gt;Image" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Q0yfEz_CHsHbp9bYXUm1-76">
+          <mxGeometry y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-92" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;" edge="1" parent="1" target="Q0yfEz_CHsHbp9bYXUm1-71">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="234.86" y="2411.37" as="sourcePoint" />
+            <mxPoint x="604.86" y="2411.74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-93" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="499.86" y="2891" as="sourcePoint" />
+            <mxPoint x="599.86" y="2891.38" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="404.86" y="2891.38" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-94" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="239.86" y="2897" as="sourcePoint" />
+            <mxPoint x="339.86" y="2897.38" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="39.86" y="2913" />
+              <mxPoint x="144.86" y="2897.38" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-95" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERoneToMany;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Q0yfEz_CHsHbp9bYXUm1-71">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="689.86" y="2837" as="sourcePoint" />
+            <mxPoint x="729.86" y="2477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-97" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERoneToMany;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Q0yfEz_CHsHbp9bYXUm1-69">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="154.19000000000005" y="2837" as="sourcePoint" />
+            <mxPoint x="249.86" y="2547" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-99" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERoneToMany;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q0yfEz_CHsHbp9bYXUm1-72">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="594.86" y="2837" as="sourcePoint" />
+            <mxPoint x="229.86" y="2477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q0yfEz_CHsHbp9bYXUm1-104" value="&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Let’s Design the Database of Spotify.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;As a first step let’s start with all the tables that are required to design the database of Spotify.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Here’s a brief explanation of the use of each table in the database design for a system like Spotify:&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Users table: This table will store information about the registered users of the system, such as their name, email, password, date of birth, and profile image.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Artists table: This table will store information about the artists, such as their names, genre, and image.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Albums table: This table will store information about the albums, such as the album name, release date, and image. It will also have a foreign key linking to the Artists table.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Tracks table: This table will store information about the tracks, such as the track name, duration, and file path. It will also have a foreign key linking to the album table.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Playlists table: This table will store information about the playlists created by the users, such as the playlist name and image. It will also have a foreign key linking to the Users table.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Playlist_Tracks table: This table will store the association between playlists and tracks. It will have two foreign keys, linking to the Playlists and Tracks tables.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Followers table: This table will store the association between users and artists. It will have two foreign keys, linking to the Users and Artists tables.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Likes table: This table will store information about the tracks liked by the users, such as the date and time of the like. It will have two foreign keys, linking to the Users and Tracks tables.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;By using these tables, the system can easily retrieve and manipulate the data related to users, artists, albums, tracks, playlists, followers, and likes.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;In the next step, Let’s create the relationships between these tables.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Here is an example of how the relationships between the tables in the Spotify database design might be structured:&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;* One-to-Many relationship between Users and Playlists: One user can have multiple playlists.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;* One-to-Many relationship between Artists and Albums: One artist can have multiple albums.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;* One-to-Many relationship between Albums and Tracks: One album can have multiple tracks.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;* Many-to-Many relationship between Playlists and Tracks: One playlist can have multiple tracks, and one track can be part of multiple playlists. The relationship is managed by the Playlist_Tracks table.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;* Many-to-Many relationship between Users and Artists: One user can follow multiple artists, and one artist can be followed by multiple users. The relationship is managed by the Followers table.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;* Many-to-Many relationship between Users and Tracks: One user can like multiple tracks, and one track can be liked by multiple users. The relationship is managed by the Likes table.&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: justify; font-size: 11px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;By using these relationships, the system can easily retrieve and manipulate the data related to users, artists, albums, tracks, playlists, followers, and likes.&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="89.86" y="60" width="700" height="780" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
